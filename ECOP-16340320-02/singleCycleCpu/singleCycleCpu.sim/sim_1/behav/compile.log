@@ -1,0 +1,39 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/ExtendSa.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Extend_Sa
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/SignZeroExtend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignZeroExtend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/Select5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Select5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/Select32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Select32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/RegisterFile.v:34]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/NextPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NextPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/JumpPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JumpPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstructionMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/DataMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleTest/singleTest.srcs/sources_1/new/Shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleTest/singleTest.srcs/sources_1/new/MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleTest/singleTest.srcs/sources_1/new/KeyOn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyOn
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleTest/singleTest.srcs/sources_1/new/CLOCK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLOCK
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/SingleCycleCpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycleCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleTest/singleTest.srcs/sources_1/new/MainCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MainCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/singleCycleCpu/singleCycleCpu.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

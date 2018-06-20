@@ -1,0 +1,358 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon May 28 22:05:08 2018
+# Process ID: 6180
+# Log file: C:/Users/Administrator/singleCycleCpu/singleCycleCpu.runs/synth_1/SingleCycleCPU.vds
+# Journal file: C:/Users/Administrator/singleCycleCpu/singleCycleCpu.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SingleCycleCPU.tcl -notrace
+Command: synth_design -top SingleCycleCPU -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 262.773 ; gain = 91.613
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SingleCycleCPU' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/SingleCycleCpu.v:23]
+INFO: [Synth 8-638] synthesizing module 'PC' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PC' (1#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-638] synthesizing module 'InstructionMemory' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/InstructionMemory.v:23]
+INFO: [Synth 8-3876] $readmem data file 'C:/Users/Administrator/singleCycleCpu/CPUInsMem.txt' is read successfully [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/InstructionMemory.v:30]
+INFO: [Synth 8-256] done synthesizing module 'InstructionMemory' (2#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/InstructionMemory.v:23]
+INFO: [Synth 8-638] synthesizing module 'ControlUnit' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/ControlUnit.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ControlUnit' (3#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/ControlUnit.v:23]
+INFO: [Synth 8-638] synthesizing module 'Select5' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/Select5.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Select5' (4#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/Select5.v:23]
+INFO: [Synth 8-638] synthesizing module 'RegisterFile' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/RegisterFile.v:23]
+INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (5#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/RegisterFile.v:23]
+INFO: [Synth 8-638] synthesizing module 'Select32' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/Select32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Select32' (6#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/Select32.v:23]
+INFO: [Synth 8-638] synthesizing module 'Extend_Sa' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/ExtendSa.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Extend_Sa' (7#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/ExtendSa.v:23]
+INFO: [Synth 8-638] synthesizing module 'SignZeroExtend' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/SignZeroExtend.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SignZeroExtend' (8#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/SignZeroExtend.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/ALU.v:31]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (9#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-638] synthesizing module 'JumpPC' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/JumpPC.v:23]
+INFO: [Synth 8-256] done synthesizing module 'JumpPC' (10#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/JumpPC.v:23]
+INFO: [Synth 8-638] synthesizing module 'NextPC' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/NextPC.v:23]
+WARNING: [Synth 8-567] referenced signal 'Reset' should be on the sensitivity list [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/NextPC.v:29]
+WARNING: [Synth 8-567] referenced signal 'PC' should be on the sensitivity list [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/NextPC.v:29]
+INFO: [Synth 8-256] done synthesizing module 'NextPC' (11#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/NextPC.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataMemory' [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/DataMemory.v:23]
+WARNING: [Synth 8-4767] Trying to implement RAM 'memory_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM has multiple writes via different ports in same process. If RAM inferencing intended, write to one port per process. 
+	2: Unable to determine number of words or word size in RAM. 
+RAM "memory_reg" dissolved into registers
+INFO: [Synth 8-256] done synthesizing module 'DataMemory' (12#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/DataMemory.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SingleCycleCPU' (13#1) [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/SingleCycleCpu.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 303.648 ; gain = 132.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 303.648 ; gain = 132.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 303.648 ; gain = 132.488
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-5546] ROM "Memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "PCWre" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUSrcA" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DBDataSrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mWR" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ExtSel" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3537] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the inputs of the operator [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/ALU.v:31]
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 355.117 ; gain = 183.957
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 5     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 3     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   8 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	  69 Input      8 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 183   
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 184   
+	   5 Input      1 Bit        Muxes := 61    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PC 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module InstructionMemory 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
++---Muxes : 
+	  69 Input      8 Bit        Muxes := 4     
+Module ControlUnit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 7     
+Module Select5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module RegisterFile 
+Detailed RTL Component Info : 
++---RAMs : 
+	             1024 Bit         RAMs := 1     
+Module Select32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module NextPC 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module DataMemory 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 183   
+	   2 Input      1 Bit        Muxes := 183   
+	   5 Input      1 Bit        Muxes := 61    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 436.477 ; gain = 265.316
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "alu/zero" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 437.922 ; gain = 266.762
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 437.922 ; gain = 266.762
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: 
++---------------+---------------------------+-----------+----------------------+---------------+-----------------------+
+|Module Name    | RTL Object                | Inference | Size (Depth x Width) | Primitives    | Hierarchical Name     | 
++---------------+---------------------------+-----------+----------------------+---------------+-----------------------+
+|SingleCycleCPU | registerfile/Register_reg | Implied   | 32 x 32              | RAM32M x 12   | SingleCycleCPU/ram__1 | 
++---------------+---------------------------+-----------+----------------------+---------------+-----------------------+
+
+Note: The table shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once. "Hierarchical Name" reflects the Distributed RAM name as it appears in the hierarchical module and only part of it is displayed.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+WARNING: [Synth 8-3332] Sequential element (\pc/IAddr_reg[0] ) is unused and will be removed from module SingleCycleCPU.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 585.723 ; gain = 414.563
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 585.723 ; gain = 414.563
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 585.723 ; gain = 414.563
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 585.723 ; gain = 414.563
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 585.723 ; gain = 414.563
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 585.723 ; gain = 414.563
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 585.723 ; gain = 414.563
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 585.723 ; gain = 414.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 585.723 ; gain = 414.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 585.723 ; gain = 414.563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    28|
+|3     |LUT1   |    37|
+|4     |LUT2   |    96|
+|5     |LUT3   |   699|
+|6     |LUT4   |    53|
+|7     |LUT5   |   632|
+|8     |LUT6   |  1051|
+|9     |MUXF7  |   208|
+|10    |MUXF8  |    48|
+|11    |RAM32M |    12|
+|12    |FDCE   |     1|
+|13    |FDPE   |    30|
+|14    |FDRE   |   488|
+|15    |IBUF   |     2|
+|16    |OBUF   |   271|
+|17    |OBUFT  |    32|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------+-------------+------+
+|      |Instance       |Module       |Cells |
++------+---------------+-------------+------+
+|1     |top            |             |  3689|
+|2     |  alu          |ALU          |    40|
+|3     |  data         |DataMemory   |  1357|
+|4     |  next         |NextPC       |    35|
+|5     |  pc           |PC           |   893|
+|6     |  registerfile |RegisterFile |  1057|
++------+---------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 585.723 ; gain = 414.563
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 585.723 ; gain = 375.965
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 585.723 ; gain = 414.563
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 500 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+49 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 585.723 ; gain = 377.250
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.090 . Memory (MB): peak = 585.723 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 28 22:05:30 2018...

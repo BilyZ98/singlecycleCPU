@@ -1,0 +1,32 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/vivado/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 0e1c6b321af2493797b8b4b27116c03b --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MainCPU_behav xil_defaultlib.MainCPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port Select [C:/Users/Administrator/singleCycleCpu/singleCycleCpu.srcs/sources_1/new/SingleCycleCpu.v:54]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 8 for port NextPC [C:/Users/Administrator/singleTest/singleTest.srcs/sources_1/new/MainCPU.v:47]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CLOCK
+Compiling module xil_defaultlib.KeyOn
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.InstructionMemory
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.Select5
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.Select32
+Compiling module xil_defaultlib.Extend_Sa
+Compiling module xil_defaultlib.SignZeroExtend
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.JumpPC
+Compiling module xil_defaultlib.NextPC
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.SingleCycleCPU
+Compiling module xil_defaultlib.Shift
+Compiling module xil_defaultlib.MUX
+Compiling module xil_defaultlib.MainCPU
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot MainCPU_behav
